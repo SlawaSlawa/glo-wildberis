@@ -1,0 +1,46 @@
+/* font-family: 'Roboto Slab', serif; */
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.navigation {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navigation-item {
+
+}
+
+.navigation-link {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #939699;
+}
+
+.button {
+    padding: 10px 20px;
+    color: #fff;
+    background: #4592FF;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.button-icon {
+    margin-right: 10px;
+}
+
+.button-text {
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+}
