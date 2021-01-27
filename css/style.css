@@ -1,4 +1,6 @@
-/* font-family: 'Roboto Slab', serif; */
+* {
+    box-sizing: border-box;
+}
 
 body {
     font-family: 'Lato', sans-serif;
@@ -6,13 +8,15 @@ body {
     padding: 0;
 }
 
+.header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
 .navigation {
     list-style-type: none;
     padding: 0;
-}
-
-.navigation-item {
-
+    margin: 0;
 }
 
 .navigation-link {
@@ -39,6 +43,11 @@ body {
 
 .button-icon, .button-price {
     margin-right: 10px;
+}
+
+.button-icon:last-child {
+    margin-right: 0;
+    margin-left: 10px;
 }
 
 .button-text {
@@ -99,4 +108,79 @@ body {
     background-color: transparent;
     border: none;
     cursor: pointer;
+}
+
+.card {
+    min-height: 370px;
+    padding-top: 60px;
+    padding-right: 46px;
+    padding-bottom: 80px;
+    padding-left: 46px;
+    border-radius: 10px;
+}
+
+
+
+.card-1 {
+    background: #E6E4E7 url('../img/card-image-1.jpg') no-repeat top right;
+    background-size: cover;
+}
+
+.card-2 {
+    background: #000 url('../img/card-image-2.jpg') no-repeat top right;
+    background-size: cover;
+}
+
+.card-3 {
+    background: #CCD5E6 url('../img/card-image-3.jpg') no-repeat top right 10%;
+    background-size: contain;
+    padding-top: 35px;
+}
+
+.card-4 {
+    padding-top: 35px;
+    padding-left: 25px;
+    background: #FF4F52 url('../img/card-image-4.jpg') no-repeat top right;
+    background-size: contain;
+}
+
+.card-title {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    color: #262D33;
+    max-width: 222px;
+    margin: 0;
+}
+
+.card-text {
+    font-size: 14px;
+    line-height: 20px;
+    color: #4B5157;
+    max-width: 176px;
+    margin-bottom: 25px;
+}
+
+.card-title.large {
+    max-width: 420px;
+    font-size: 40px;
+    line-height: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.text-light {
+    color: #ffffff;
+}
+
+.card-text.large {
+    max-width: 320px;
+}
+
+.card-price {
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
 }
